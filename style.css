@@ -109,6 +109,10 @@
     font-family: Arial, Helvetica, sans-serif;
  }
 
+ p{
+   font-family: "Roboto";
+ }
+
  .title-sec3{
     font-size: 38px;
     margin: auto;
@@ -296,7 +300,7 @@
 .text-bt2sec3{
    position: absolute;
    font-size: 13px;
-   left: 608px;
+   left: 620px;
    top: 1230px;
    text-align: center;
    background: #ffffff;
@@ -334,16 +338,10 @@
   }
 
   .readMore_btn {
-   width: 30px;
-   height: 30px;
-   border: none;
-   border-radius: 50%;
    cursor: pointer;
    position: absolute;
-   left: 920px;
-   top: 1445px;
-   color: #fff;
-   font-size: 35px;
+   left: 950px;
+   top: 1450px;
 }
 .FQA-COST{
    font-size: 26px;
@@ -364,16 +362,11 @@
    color: #fff;
   }
   .readMore2_btn {
-   width: 30px;
-   height: 30px;
-   border: none;
-   border-radius: 50%;
    cursor: pointer;
    position: absolute;
-   left: 920px;
+   left: 950px;
    top: 1720px;
-   color: #fff;
-   font-size: 35px;
+
 }
 .FQA-USO{
    font-size: 26px;
@@ -394,16 +387,11 @@
    color: #fff;
   }
   .readMore3_btn {
-   width: 30px;
-   height: 30px;
-   border: none;
-   border-radius: 50%;
    cursor: pointer;
    position: absolute;
-   left: 920px;
+   left: 950px;
    top: 1880px;
-   color: #fff;
-   font-size: 35px;
+   
 }
 .FQA-CANCELAR{
    font-size: 26px;
@@ -424,19 +412,14 @@
    color: #fff;
   }
   .readMore4_btn {
-   width: 30px;
-   height: 30px;
-   border: none;
-   border-radius: 50%;
    cursor: pointer;
    position: absolute;
-   left: 920px;
+   left: 950px;
    top: 2010px;
-   color: #fff;
-   font-size: 35px;
+
 }
 
-.FQA-DONDE{
+ .FQA-DONDE{
    font-size: 26px;
    position: absolute;
    margin: auto;
@@ -452,19 +435,14 @@
    font-size: 16px;
    left: 340px;
    top: 2190px;
-   color: #fff;
+   color: rgba(255, 255, 255, 0.836);
   }
   .readMore5_btn {
-   width: 30px;
-   height: 30px;
-   border: none;
-   border-radius: 50%;
    cursor: pointer;
    position: absolute;
-   left: 920px;
+   left: 950px;
    top: 2145px;
-   color: #fff;
-   font-size: 35px;
+  
 }
 
 .condiciones{
@@ -472,7 +450,7 @@
    text-align: left;
    font-size: 12px;
    left: 340px;
-   top: 2490px;
+   top: 2480px;
    color: rgba(180, 180, 178, 0.637);
 }
 
@@ -484,10 +462,6 @@
   top: 2700px;
   border: 0.85162px solid rgba(255, 255, 255, 0.493);
 }
-
-
-
-
 
 
 /*FIN*/
