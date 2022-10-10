@@ -1,5 +1,5 @@
 /*MARDELYS*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 body{
     background-color: #121216;
     font-size: 14px;
@@ -42,6 +42,7 @@ header{
     color: #fff;
     font-size: 38px;
     font-weight: 700;
+    margin: 50px;
 
 }
 .contenedor{
@@ -83,12 +84,13 @@ header{
     display: flex;
     border-radius: 20px; 
     justify-content: center;
+    cursor: pointer;
 }
 .logo-tigo2{
     width: 30px;
     display: flex;
     margin: 20px;
-    margin-left: 150px;
+    margin-left: 160px;
 }
 .card-4{
     margin-bottom: 50px;
@@ -113,6 +115,7 @@ header{
     font-size: 25px;
     text-decoration: none;
     font-weight: bold;
+    line-height: 20px;
     
 }
 .precio{
@@ -123,6 +126,7 @@ header{
 }
 .enlace{
     color: #fff;
+    line-height: 20px;
 }
 .boton{
     width: 350px;
@@ -143,7 +147,7 @@ header{
     font-size: 16px;
 }
 .p2{
-
+    line-height: 10px;
 }
 
 
