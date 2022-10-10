@@ -99,6 +99,139 @@
 
 /*FERNANDA*/
 
+*{
+    background: #131417;
+    color: #fff;
+
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+ }
+ 
+ .title-sec3{
+    font-size: 39px;
+    margin: auto;
+    text-align: center;
+    padding: 0 20 0 20;
+ }
+
+ .text1-sec3{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(180, 180, 178);
+    font-family: Roboto;
+ }
+
+ .img1-sec3{
+    position: absolute;
+    width: 213px;
+    height: 213px;
+    left: 52px;
+    top: 260px;
+    border-radius: 5px;
+ }
+
+ .song-sec3{
+    position: absolute;
+    font-size: 15px;
+    left: 139px;
+    top: 464px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(180, 180, 178);
+ }
+
+ .img2-sec3{
+    position: absolute;
+    width: 213px;
+    height: 213px;
+    left: 309px;
+    top: 260px;   
+    border-radius: 5px;
+ }
+ .song2-sec3{
+    position: absolute;
+    font-size: 15px;
+    left: 380px;
+    top: 464px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(180, 180, 178);
+ }
+
+ .img3-sec3{
+    position: absolute;
+    width: 213px;
+    height: 213px;
+    left: 566px;
+    top: 260px;
+    border-radius: 5px;
+ }
+ .song3-sec3{
+    position: absolute;
+    font-size: 13px;
+    left: 571px;
+    top: 467px;
+    text-align: center;
+    color: rgb(180, 180, 178);
+ }
+
+ .img4-sec3{
+    position: absolute;
+    width: 213px;
+    height: 213px;
+    left: 823px;
+    top: 260px;
+    border-radius: 5px;
+ }
+ .song4-sec3{
+    position: absolute;
+    font-size: 15px;
+    left: 885px;
+    top: 467px;
+    text-align: center;
+    color: rgb(180, 180, 178);
+}
+
+ .img5-sec3{
+    position: absolute;
+    width: 213px;
+    height: 213px;
+    left: 1080px;
+    top: 260px;
+    border-radius: 5px;
+ }
+
+ .song5-sec3{
+    position: absolute;
+    font-size: 15px;
+    left: 1125px;
+    top: 467px;
+    text-align: center;
+    color: rgb(180, 180, 178);
+}
+
+ .boton1-sec3{
+    position: absolute;
+    width: 252px;
+    height: 52px;
+    left: 550px;
+    top: 590px;
+    background-color: #fff;
+    border-radius: 50px;
+   }
+
+   .text-btsec3{
+    position: absolute;
+    font-size: 12px;
+    left: 573px;
+    top: 595px;
+    text-align: center;
+    background: #fff;
+    color: #131417;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+   }
+
+
 
 
 
