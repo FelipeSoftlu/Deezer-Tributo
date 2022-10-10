@@ -99,25 +99,30 @@
 
 /*FERNANDA*/
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+
 *{
     background: #121216;
-    color: #fff;
+    color: #ffffff;
 
-    font-family: Roboto,Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
  }
 
  .title-sec3{
-    font-size: 39px;
+    font-size: 38px;
     margin: auto;
     text-align: center;
     padding: 0 20 0 20;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
  }
 
  .text1-sec3{
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     color: rgb(180, 180, 178);
-    font-family: Roboto;
+    font-family: Arial, Helvetica, sans-serif;
  }
 
  .img1-sec3{
@@ -125,7 +130,7 @@
     width: 213px;
     height: 213px;
     left: 52px;
-    top: 260px;
+    top: 250px;
     border-radius: 5px;
  }
 
@@ -133,7 +138,7 @@
     position: absolute;
     font-size: 15px;
     left: 139px;
-    top: 464px;
+    top: 454px;
     text-align: center;
     border-radius: 5px;
     color: rgb(180, 180, 178);
@@ -144,14 +149,14 @@
     width: 213px;
     height: 213px;
     left: 309px;
-    top: 260px;   
+    top: 250px;   
     border-radius: 5px;
  }
  .song2-sec3{
     position: absolute;
     font-size: 15px;
     left: 380px;
-    top: 464px;
+    top: 454px;
     text-align: center;
     border-radius: 5px;
     color: rgb(180, 180, 178);
@@ -162,14 +167,14 @@
     width: 213px;
     height: 213px;
     left: 566px;
-    top: 260px;
+    top: 250px;
     border-radius: 5px;
  }
  .song3-sec3{
     position: absolute;
     font-size: 13px;
     left: 571px;
-    top: 467px;
+    top: 457px;
     text-align: center;
     color: rgb(180, 180, 178);
  }
@@ -179,14 +184,14 @@
     width: 213px;
     height: 213px;
     left: 823px;
-    top: 260px;
+    top: 250px;
     border-radius: 5px;
  }
  .song4-sec3{
     position: absolute;
     font-size: 15px;
     left: 885px;
-    top: 467px;
+    top: 454px;
     text-align: center;
     color: rgb(180, 180, 178);
 }
@@ -196,7 +201,7 @@
     width: 213px;
     height: 213px;
     left: 1080px;
-    top: 260px;
+    top: 250px;
     border-radius: 5px;
  }
 
@@ -204,7 +209,7 @@
     position: absolute;
     font-size: 15px;
     left: 1125px;
-    top: 467px;
+    top: 454px;
     text-align: center;
     color: rgb(180, 180, 178);
 }
@@ -214,16 +219,16 @@
     width: 252px;
     height: 52px;
     left: 550px;
-    top: 590px;
+    top: 580px;
     background-color: #fff;
     border-radius: 50px;
    }
 
    .text-btsec3{
     position: absolute;
-    font-size: 12px;
-    left: 573px;
-    top: 595px;
+    font-size: 13px;
+    left: 565px;
+    top: 585px;
     text-align: center;
     background: #fff;
     color: #131417;
@@ -285,52 +290,200 @@
     height: 52px;
     left: 580px;
     top: 1225px;
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 50px;
 }
+.text-bt2sec3{
+   position: absolute;
+   font-size: 13px;
+   left: 608px;
+   top: 1230px;
+   text-align: center;
+   background: #ffffff;
+   color: #131417;
+   font-weight: 800;
+  }
+  .FAQ-sec3{
+   font-size: 38px;
+   position: absolute;
+   margin: auto;
+   text-align: center;
+   font-weight: bolder;
+   font-family: Arial, Helvetica, sans-serif;
+   top: 1370px;
+   left: 640px;
+}
 
+.FQA-QUEES{
+   font-size: 26px;
+   position: absolute;
+   margin: auto;
+   text-align: left;
+   font-weight: bolder;
+   font-family: Arial, Helvetica, sans-serif;
+   top: 1450px;
+   left: 340px;
+}
+.FQA-TEXT1{
+   position: absolute;
+   text-align: left;
+   font-size: 16px;
+   left: 340px;
+   top: 1500px;
+   color: #fff;
+  }
 
+  .readMore_btn {
+   width: 30px;
+   height: 30px;
+   border: none;
+   border-radius: 50%;
+   cursor: pointer;
+   position: absolute;
+   left: 920px;
+   top: 1445px;
+   color: #fff;
+   font-size: 35px;
+}
+.FQA-COST{
+   font-size: 26px;
+   position: absolute;
+   margin: auto;
+   text-align: left;
+   font-weight: bolder;
+   font-family: Arial, Helvetica, sans-serif;
+   top: 1720px;
+   left: 340px;
+}
+.FQA-TEXT2{
+   position: absolute;
+   text-align: left;
+   font-size: 16px;
+   left: 340px;
+   top: 1768px;
+   color: #fff;
+  }
+  .readMore2_btn {
+   width: 30px;
+   height: 30px;
+   border: none;
+   border-radius: 50%;
+   cursor: pointer;
+   position: absolute;
+   left: 920px;
+   top: 1720px;
+   color: #fff;
+   font-size: 35px;
+}
+.FQA-USO{
+   font-size: 26px;
+   position: absolute;
+   margin: auto;
+   text-align: left;
+   font-weight: bolder;
+   font-family: Arial, Helvetica, sans-serif;
+   top: 1880px;
+   left: 340px;
+}
+.FQA-TEXT3{
+   position: absolute;
+   text-align: left;
+   font-size: 16px;
+   left: 340px;
+   top: 1925px;
+   color: #fff;
+  }
+  .readMore3_btn {
+   width: 30px;
+   height: 30px;
+   border: none;
+   border-radius: 50%;
+   cursor: pointer;
+   position: absolute;
+   left: 920px;
+   top: 1880px;
+   color: #fff;
+   font-size: 35px;
+}
+.FQA-CANCELAR{
+   font-size: 26px;
+   position: absolute;
+   margin: auto;
+   text-align: left;
+   font-weight: bolder;
+   font-family: Arial, Helvetica, sans-serif;
+   top: 2020px;
+   left: 340px;
+}
+.FQA-TEXT4{
+   position: absolute;
+   text-align: left;
+   font-size: 16px;
+   left: 340px;
+   top: 2065px;
+   color: #fff;
+  }
+  .readMore4_btn {
+   width: 30px;
+   height: 30px;
+   border: none;
+   border-radius: 50%;
+   cursor: pointer;
+   position: absolute;
+   left: 920px;
+   top: 2010px;
+   color: #fff;
+   font-size: 35px;
+}
 
+.FQA-DONDE{
+   font-size: 26px;
+   position: absolute;
+   margin: auto;
+   text-align: left;
+   font-weight: bolder;
+   font-family: Arial, Helvetica, sans-serif;
+   top: 2150px;
+   left: 340px;
+}
+.FQA-TEXT5{
+   position: absolute;
+   text-align: left;
+   font-size: 16px;
+   left: 340px;
+   top: 2190px;
+   color: #fff;
+  }
+  .readMore5_btn {
+   width: 30px;
+   height: 30px;
+   border: none;
+   border-radius: 50%;
+   cursor: pointer;
+   position: absolute;
+   left: 920px;
+   top: 2145px;
+   color: #fff;
+   font-size: 35px;
+}
 
+.condiciones{
+   position: absolute;
+   text-align: left;
+   font-size: 12px;
+   left: 340px;
+   top: 2490px;
+   color: rgba(180, 180, 178, 0.637);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.linea-footer{
+  position: absolute;
+  width: 99%;
+  height: 0px;
+  left:2px;
+  top: 2700px;
+  border: 0.85162px solid rgba(255, 255, 255, 0.493);
+}
 
 
 
