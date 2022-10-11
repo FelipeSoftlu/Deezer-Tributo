@@ -12,7 +12,6 @@ header{
     align-items: center;
     margin: 20px 60px 100px 60px;
 }
-
 .tigo{
     border: 1px #52525d solid;
     padding: 10px 35px;
@@ -35,7 +34,6 @@ header{
     padding: 2px 13px ;
     font-size: 11px;
     color: #fff;
-
 }
 .titulo{
     text-align: center;
@@ -43,7 +41,6 @@ header{
     font-size: 38px;
     font-weight: 700;
     margin: 50px;
-
 }
 .contenedor{
     display: flex;
