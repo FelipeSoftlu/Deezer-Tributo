@@ -481,54 +481,643 @@ a{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*FERNANDA*/
 
+p{
+   font-family: "Roboto";
+ }
 
+ .title-sec3{
+    font-size: 38px;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+   margin-top: 35px;
+ }
 
+ .text1-sec3{
+    font-size: 16px;
+    text-align: center;
+    color: rgb(180, 180, 178);
+   margin-top: 5px;
+   
+ }
 
+ .img1-sec3{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top:25px ;
+    width: 214px;
+    border-radius: 5px;
+   
+ }
 
+ .song-sec3{
+    
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(180, 180, 178);
+    display: inline-block;
+    margin-left: 115px;
+   margin-top: 5px;
+ }
 
+ .img2-sec3{
+   
+    width: 214px;
+    border-radius: 5px;
+    margin-right: 40px;
+ }
+ .song2-sec3{
+   
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(180, 180, 178);
+   display: inline-block;
+   margin-left: 185px;
+ }
 
+ .img3-sec3{
+   
+    width: 214px;
+    border-radius: 5px;
+    margin-right: 40px;
+ }
+ .song3-sec3{
+   
+    font-size: 13px;
+    text-align: center;
+    color: rgb(180, 180, 178);
+    display: inline-block;
+    margin-left:120px;
+ }
 
+ .img4-sec3{
+    width: 214px;
+    border-radius: 5px;
+    margin-right: 40px;
+ }
+ .song4-sec3{
+  
+    font-size: 15px;
+    text-align: center;
+    color: rgb(180, 180, 178);
+    display: inline-block;
+    margin-left:120px;
+}
 
+ .img5-sec3{
+    
+    width: 214px;
+    border-radius: 5px;
+    margin-right: 40px;
+ }
 
+ .song5-sec3{
+   
+    font-size: 15px;
+    text-align: center;
+    color: rgb(180, 180, 178);
+    display: inline-block;
+    margin-left:120px;
+}
 
+ .boton1-sec3{
+    width: 280px;
+    height: 55px;
+    font-size: 14px;
+    display: block;
+    padding: 18px 25px;
+    text-align: center;
+    border-radius: 100px;
+    border: 1px solid rgba(0,0,0,0);
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 55px;
+    font-weight: 700;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #fff;
+    color :#191919;
+   }
 
+.novedades{
+    font-size: 16px;
+    margin-left: 620px;
+    margin-top:85px ;
+}
 
+.linea-novedades{
+  width: 230px;
+  height: 0px;
+  border: 0.85162px solid rgba(143, 140, 140, 0.514);
+}
+.linea2-novedades{
+    width: 230px;
+    border: 0.85162px solid rgba(143, 140, 140, 0.514);
+  }
+.text-importa{
+    font-size: 39px;
+    text-align: center;
+}
+.sub-textimporta{
+    text-align: center;
+    color: rgb(180, 180, 178);
+    font-size: 15px;
+}
 
+.img-novedades{
+    display: block;
+    margin: auto;
+}
+.boton-novedades{
+    display: block;
+    font-size: 14px;
+    padding: 18px 25px;
+    text-align: center;
+    border-radius: 100px;
+    border: 1px solid rgba(0,0,0,0);
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-weight: 700;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #fff;
+    color :#191919;
+}
+  .FAQ-sec3{
+   font-size: 38px;
+  
+   margin: auto;
+  margin-top: 85px;
+   text-align: center;
+   font-weight: bolder;
+}
 
+.FQA-QUEES{
+   font-size: 26px;
+   margin: auto;
+   text-align: left;
+   font-weight: bolder;
+   margin-top: 60px;
+   margin-left: 350px;
+   cursor: pointer;
+}
 
+.FQA-TEXT1{
+   text-align: left;
+   font-size: 16px;
+   color: #fff;
+   margin-left: 350px;
+   margin-top: 25px;
+  }
 
+  .readMore_btn {
+   cursor: pointer;
+   margin-left: 920px;
+}
+.FQA-TITULOS{
+   font-size: 26px;
+   margin: auto;
+   text-align: left;
+   font-weight: bolder;
+   margin-left: 350px;
+   margin-top: 25px;
+   cursor: pointer;
+  
+}
+.FQA-TEXT2{
+   
+   text-align: left;
+   font-size: 16px;
+   color: #fff;
+   margin-left: 350px;
+   margin-top: 25px;
+  }
 
+  .readMore2_btn {
+   cursor: pointer;
+   margin-left: 920px;
+   display: inline-block;
 
+}
+.FQA-TEXT3{
+   text-align: left;
+   font-size: 16px;
+   color: #fff;
+   margin-left: 350px;
+   display: inline-block;
+   margin-top: 25px;
+  }
+  .readMore3_btn {
+   cursor: pointer;
+   margin-left: 920px;
+   
+}
+.FQA-TEXT4{
+   text-align: left;
+   font-size: 16px;
+   color: #fff;
+   margin-left: 350px;
+   margin-top: 25px;
+  }
+  .readMore4_btn {
+   cursor: pointer;
+   margin-left: 920px;
+   display: inline-block;
 
+}
 
+.FQA-TEXT5{
+   text-align: left;
+   font-size: 16px;
+   color: rgba(255, 255, 255, 0.836);
+   margin-left: 350px;
+  margin-top: 25px;
+  }
+  .readMore5_btn {
+   cursor: pointer;
+   margin-left: 920px;
+    display: inline-block;
+  
+}
 
+.condiciones{
+   text-align: left;
+   font-size: 12px;
+   color: rgba(180, 180, 178, 0.637);
+   margin: 105px 0px 200px 350px;
+}
+hr{
+  border: 1px #52525d solid;
+  
+  
+}
+.img-footer{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*FIN*/
+}
+.appstore{
+  width: 150px;
+  margin: 10px;
+}
+.google{
+  width: 180px;
+  margin: 10px;
+}
+.footer-contenido{
+  display: flex;
+  margin: 40px;
+  cursor: pointer;
+}
+.titulofooter{
+  text-align: left;
+  font-size: 15px;
+  margin-left: 40px;
+}
+ul{
+  list-style: none;
+  line-height: 40px;
+  font-size: 15px;
+  text-align: left;
+  color: #bebec7;
+}
+.contacto-footer{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 200px;
+  margin: 50px 50px 200px 50px;
+}
+.icon-footer{
+  color:#fff;
+  font-size: 25x;
+  margin:10px;
+  cursor: pointer;
+}
+.img1-footer{
+  margin: 0px 120px 0px 300px;
+  width: 180px;
+  cursor: pointer;
+  
+}
+.deezer2022{
+  color:#bebec7;
+  margin-left:40px ;
+  cursor: pointer;
+}
