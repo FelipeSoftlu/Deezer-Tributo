@@ -97,19 +97,312 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*FERNANDA*/
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
-
-
-*{
-    background: #121216;
-    color: #ffffff;
-
-    font-family: Arial, Helvetica, sans-serif;
- }
-
- p{
+p{
    font-family: "Roboto";
  }
 
@@ -117,351 +410,330 @@
     font-size: 38px;
     margin: auto;
     text-align: center;
-    padding: 0 20 0 20;
+    padding: 15px;
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
+   margin-top: 35px;
  }
 
  .text1-sec3{
     font-size: 16px;
     text-align: center;
     color: rgb(180, 180, 178);
-    font-family: Arial, Helvetica, sans-serif;
+   margin-top: 5px;
+   
  }
 
  .img1-sec3{
-    position: absolute;
-    width: 213px;
-    height: 213px;
-    left: 52px;
-    top: 250px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top:25px ;
+    width: 214px;
     border-radius: 5px;
+   
  }
 
  .song-sec3{
-    position: absolute;
+    
     font-size: 15px;
-    left: 139px;
-    top: 454px;
     text-align: center;
     border-radius: 5px;
     color: rgb(180, 180, 178);
+    display: inline-block;
+    margin-left: 115px;
+   margin-top: 5px;
  }
 
  .img2-sec3{
-    position: absolute;
-    width: 213px;
-    height: 213px;
-    left: 309px;
-    top: 250px;   
+   
+    width: 214px;
     border-radius: 5px;
+    margin-right: 40px;
  }
  .song2-sec3{
-    position: absolute;
+   
     font-size: 15px;
-    left: 380px;
-    top: 454px;
     text-align: center;
     border-radius: 5px;
     color: rgb(180, 180, 178);
+   display: inline-block;
+   margin-left: 185px;
  }
 
  .img3-sec3{
-    position: absolute;
-    width: 213px;
-    height: 213px;
-    left: 566px;
-    top: 250px;
+   
+    width: 214px;
     border-radius: 5px;
+    margin-right: 40px;
  }
  .song3-sec3{
-    position: absolute;
+   
     font-size: 13px;
-    left: 571px;
-    top: 457px;
     text-align: center;
     color: rgb(180, 180, 178);
+    display: inline-block;
+    margin-left:120px;
  }
 
  .img4-sec3{
-    position: absolute;
-    width: 213px;
-    height: 213px;
-    left: 823px;
-    top: 250px;
+    width: 214px;
     border-radius: 5px;
+    margin-right: 40px;
  }
  .song4-sec3{
-    position: absolute;
+  
     font-size: 15px;
-    left: 885px;
-    top: 454px;
     text-align: center;
     color: rgb(180, 180, 178);
+    display: inline-block;
+    margin-left:120px;
 }
 
  .img5-sec3{
-    position: absolute;
-    width: 213px;
-    height: 213px;
-    left: 1080px;
-    top: 250px;
+    
+    width: 214px;
     border-radius: 5px;
+    margin-right: 40px;
  }
 
  .song5-sec3{
-    position: absolute;
+   
     font-size: 15px;
-    left: 1125px;
-    top: 454px;
     text-align: center;
     color: rgb(180, 180, 178);
+    display: inline-block;
+    margin-left:120px;
 }
 
  .boton1-sec3{
-    position: absolute;
-    width: 252px;
-    height: 52px;
-    left: 550px;
-    top: 580px;
-    background-color: #fff;
-    border-radius: 50px;
-   }
-
-   .text-btsec3{
-    position: absolute;
-    font-size: 13px;
-    left: 565px;
-    top: 585px;
+    width: 280px;
+    height: 55px;
+    font-size: 14px;
+    display: block;
+    padding: 18px 25px;
     text-align: center;
-    background: #fff;
-    color: #131417;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 800;
+    border-radius: 100px;
+    border: 1px solid rgba(0,0,0,0);
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 55px;
+    font-weight: 700;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #fff;
+    color :#191919;
    }
 
 .novedades{
-    font-size: 14px;
-    top: 700px;
-    position: absolute;
-    left: 640px;
-    background-color:#131417;
-    z-index: 999;
+    font-size: 16px;
+    margin-left: 620px;
+    margin-top:85px ;
 }
 
 .linea-novedades{
-  position: absolute;
   width: 230px;
   height: 0px;
-  left: 390px;
-  top: 720px;
   border: 0.85162px solid rgba(143, 140, 140, 0.514);
 }
 .linea2-novedades{
-    position: absolute;
     width: 230px;
-    height: 0px;
-    left: 750px;
-    top: 720px;
     border: 0.85162px solid rgba(143, 140, 140, 0.514);
   }
 .text-importa{
     font-size: 39px;
-    top: 750px;
-    left: 390px;
     text-align: center;
-    position: absolute;
 }
 .sub-textimporta{
     text-align: center;
     color: rgb(180, 180, 178);
-    font-family: Roboto;
-    position: absolute;
-    top: 890px;
-    left: 390px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 
 .img-novedades{
-    position: absolute;
-    left: 350px;
-    top: 950px;
+    display: block;
+    margin: auto;
 }
 .boton-novedades{
-    position: absolute;
-    width: 200px;
-    height: 52px;
-    left: 580px;
-    top: 1225px;
-    background-color: #ffffff;
-    border-radius: 50px;
+    display: block;
+    font-size: 14px;
+    padding: 18px 25px;
+    text-align: center;
+    border-radius: 100px;
+    border: 1px solid rgba(0,0,0,0);
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-weight: 700;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #fff;
+    color :#191919;
 }
-.text-bt2sec3{
-   position: absolute;
-   font-size: 13px;
-   left: 620px;
-   top: 1230px;
-   text-align: center;
-   background: #ffffff;
-   color: #131417;
-   font-weight: 800;
-  }
   .FAQ-sec3{
    font-size: 38px;
-   position: absolute;
+  
    margin: auto;
+  margin-top: 85px;
    text-align: center;
    font-weight: bolder;
-   font-family: Arial, Helvetica, sans-serif;
-   top: 1370px;
-   left: 640px;
 }
 
 .FQA-QUEES{
    font-size: 26px;
-   position: absolute;
    margin: auto;
    text-align: left;
    font-weight: bolder;
-   font-family: Arial, Helvetica, sans-serif;
-   top: 1450px;
-   left: 340px;
+   margin-top: 60px;
+   margin-left: 350px;
+   cursor: pointer;
 }
+
 .FQA-TEXT1{
-   position: absolute;
    text-align: left;
    font-size: 16px;
-   left: 340px;
-   top: 1500px;
    color: #fff;
+   margin-left: 350px;
+   margin-top: 25px;
   }
 
   .readMore_btn {
    cursor: pointer;
-   position: absolute;
-   left: 950px;
-   top: 1450px;
+   margin-left: 920px;
 }
-.FQA-COST{
+.FQA-TITULOS{
    font-size: 26px;
-   position: absolute;
    margin: auto;
    text-align: left;
    font-weight: bolder;
-   font-family: Arial, Helvetica, sans-serif;
-   top: 1720px;
-   left: 340px;
+   margin-left: 350px;
+   margin-top: 25px;
+   cursor: pointer;
+  
 }
 .FQA-TEXT2{
-   position: absolute;
+   
    text-align: left;
    font-size: 16px;
-   left: 340px;
-   top: 1768px;
    color: #fff;
+   margin-left: 350px;
+   margin-top: 25px;
   }
+
   .readMore2_btn {
    cursor: pointer;
-   position: absolute;
-   left: 950px;
-   top: 1720px;
+   margin-left: 920px;
+   display: inline-block;
 
 }
-.FQA-USO{
-   font-size: 26px;
-   position: absolute;
-   margin: auto;
-   text-align: left;
-   font-weight: bolder;
-   font-family: Arial, Helvetica, sans-serif;
-   top: 1880px;
-   left: 340px;
-}
 .FQA-TEXT3{
-   position: absolute;
    text-align: left;
    font-size: 16px;
-   left: 340px;
-   top: 1925px;
    color: #fff;
+   margin-left: 350px;
+   display: inline-block;
+   margin-top: 25px;
   }
   .readMore3_btn {
    cursor: pointer;
-   position: absolute;
-   left: 950px;
-   top: 1880px;
+   margin-left: 920px;
    
 }
-.FQA-CANCELAR{
-   font-size: 26px;
-   position: absolute;
-   margin: auto;
-   text-align: left;
-   font-weight: bolder;
-   font-family: Arial, Helvetica, sans-serif;
-   top: 2020px;
-   left: 340px;
-}
 .FQA-TEXT4{
-   position: absolute;
    text-align: left;
    font-size: 16px;
-   left: 340px;
-   top: 2065px;
    color: #fff;
+   margin-left: 350px;
+   margin-top: 25px;
   }
   .readMore4_btn {
    cursor: pointer;
-   position: absolute;
-   left: 950px;
-   top: 2010px;
+   margin-left: 920px;
+   display: inline-block;
 
 }
 
- .FQA-DONDE{
-   font-size: 26px;
-   position: absolute;
-   margin: auto;
-   text-align: left;
-   font-weight: bolder;
-   font-family: Arial, Helvetica, sans-serif;
-   top: 2150px;
-   left: 340px;
-}
 .FQA-TEXT5{
-   position: absolute;
    text-align: left;
    font-size: 16px;
-   left: 340px;
-   top: 2190px;
    color: rgba(255, 255, 255, 0.836);
+   margin-left: 350px;
+  margin-top: 25px;
   }
   .readMore5_btn {
    cursor: pointer;
-   position: absolute;
-   left: 950px;
-   top: 2145px;
+   margin-left: 920px;
+    display: inline-block;
   
 }
 
 .condiciones{
-   position: absolute;
    text-align: left;
    font-size: 12px;
-   left: 340px;
-   top: 2480px;
    color: rgba(180, 180, 178, 0.637);
+   margin: 105px 0px 200px 350px;
 }
-
-.linea-footer{
-  position: absolute;
-  width: 99%;
-  height: 0px;
-  left:2px;
-  top: 2700px;
-  border: 0.85162px solid rgba(255, 255, 255, 0.493);
+hr{
+  border: 1px #52525d solid;
+  
+  
 }
+.img-footer{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 
-
-/*FIN*/
+}
+.appstore{
+  width: 150px;
+  margin: 10px;
+}
+.google{
+  width: 180px;
+  margin: 10px;
+}
+.footer-contenido{
+  display: flex;
+  margin: 40px;
+  cursor: pointer;
+}
+.titulofooter{
+  text-align: left;
+  font-size: 15px;
+  margin-left: 40px;
+}
+ul{
+  list-style: none;
+  line-height: 40px;
+  font-size: 15px;
+  text-align: left;
+  color: #bebec7;
+}
+.contacto-footer{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 200px;
+  margin: 50px 50px 200px 50px;
+}
+.icon-footer{
+  color:#fff;
+  font-size: 25x;
+  margin:10px;
+  cursor: pointer;
+}
+.img1-footer{
+  margin: 0px 120px 0px 300px;
+  width: 180px;
+  cursor: pointer;
+  
+}
+.deezer2022{
+  color:#bebec7;
+  margin-left:40px ;
+  cursor: pointer;
+}
