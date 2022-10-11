@@ -1,16 +1,18 @@
 /*MARDELYS*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url("deezer-bold.ttf");
+
 body{
     background-color: #121216;
     font-size: 14px;
-    font-family: "Roboto", Arial,sans-serif;
+    font-family: "deezer-bold", "Roboto", Arial,sans-serif;
 }
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 60px 100px 60px;
+    margin: 20px 50px 80px 50px;
 }
 .tigo{
     border: 1px #52525d solid;
@@ -19,6 +21,7 @@ header{
     font-size: 12px;
     text-align: center;
     border-radius: 10px;
+    cursor: pointer;
 
 }
 .logotigo{
@@ -27,6 +30,8 @@ header{
 .logo-deezer{
     height: 24px;
     width: 120px;
+    cursor: pointer;
+    justify-content: center;
 }
 .iniciar-sesion{
     border: 1px solid #fff;
@@ -34,6 +39,7 @@ header{
     padding: 2px 13px ;
     font-size: 11px;
     color: #fff;
+    cursor: pointer;
 }
 .titulo{
     text-align: center;
@@ -95,13 +101,68 @@ header{
     width: 600px;
     border-radius: 20px; 
 }
+#ocultar-card-5:checked ~ .card-5{
+    display: flex;
+}
+#ocultar-card-5:checked ~ .ocultar-card5{
+    display: none;
+}
+input[type=radio]{
+    display: none;
+}
+.contenedor-card-5{
+    border: 1px solid #fff;
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.txt-ocult{
+    text-align: center;
+    padding: 0px;
+}
+.descuento{
+    background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);
+    padding: 5px 10px 5px 10px;
+    margin:6px;
+    margin-right: 5px;
+    margin-left: 540px;
+    position: absolute;
+    border-radius: 30px;
+    font-weight: bold;
+}
 .card-5{
+    display: none;
     margin: 0px 357px 50px;
     background:linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);
     width: 600px;
     border-radius: 20px; 
 }
+#ocultar-card-6:checked ~ .card-6{
+    display: flex;
+}
+#ocultar-card-6:checked ~ .ocultar-card6{
+    display: none;
+}
+.contenedor-card-6{
+    border: 1px solid #fff;
+    height: 40px;
+    width: 600px;
+    border-radius: 20px;
+    padding: 0px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
 .card-6{
+    display: none;
     margin: 0px 357px 50px;
     background:linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);
     width: 600px;
@@ -122,7 +183,7 @@ header{
     line-height: 0px;
 }
 .enlace{
-    color: #fff;
+    color: #ffffff;
     line-height: 20px;
 }
 .boton{
@@ -146,6 +207,9 @@ header{
 .p2{
     line-height: 10px;
 }
+
+
+
 
 
 
